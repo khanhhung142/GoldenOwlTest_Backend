@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/khanhhung142/GoldenOwlTest/Backend/models"
+	"github.com/khanhhung142/GoldenOwlTest_Backend/models"
 )
 
 func GetAllShoes(response http.ResponseWriter, request *http.Request) {
